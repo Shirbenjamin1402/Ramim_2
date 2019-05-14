@@ -1,0 +1,80 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>RamimNew2</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>RamimNew2</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="About.html">About.html</ProjectItem>
+      <Folder Name="images" TargetFolderName="images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="63610.jpg">63610.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="down-arrow.png">down-arrow.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="HIT logo.png">HIT logo.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Ramim logo.png">Ramim logo.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="דו שימושיות.png">vstg0001.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="טוהר מידות.png">vstg0002.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="ממשקי עבודה.png">vstg0003.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="צווי אלוף לאכיפה.png">vstg0004.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="תעודות משלוח.png">vstg0005.png</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
+      <Folder Name="jScripts" TargetFolderName="jScripts">
+        <ProjectItem ReplaceParameters="true" TargetFileName="JavaScript.js">JavaScript.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.12.0.min.js">jquery-1.12.0.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="responsive.js">responsive.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="scripts.js">scripts.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="wow.min.js">wow.min.js</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="libman.json">libman.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="memshak.html">memshak.html</ProjectItem>
+      <Folder Name="PROJECT API" TargetFolderName="PROJECT API">
+        <Folder Name="api" TargetFolderName="api">
+          <ProjectItem ReplaceParameters="false" TargetFileName="__TemplateIcon.ico">__TemplateIcon.ico</ProjectItem>
+          <Folder Name="icons" TargetFolderName="icons">
+            <ProjectItem ReplaceParameters="false" TargetFileName="CinemaCity.png">CinemaCity.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="HIT.png">HIT.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="IconFitness.png">IconFitness.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="MyHome.png">MyHome.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="MyWork.png">MyWork.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Untitled-1.png">Untitled-1.png</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="index2.htm">index2.htm</ProjectItem>
+          <Folder Name="jScripts" TargetFolderName="jScripts">
+            <ProjectItem ReplaceParameters="true" TargetFileName="JavaScript.js">JavaScript.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery-2.1.1.min.js">jquery-2.1.1.min.js</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="MyTemplate.vstemplate">MyTemplate.vstemplate</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ProjectName.webproj">ProjectName.webproj</ProjectItem>
+          <Folder Name="Styles" TargetFolderName="Styles">
+            <ProjectItem ReplaceParameters="true" TargetFileName="myStyle.css">myStyle.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="reset.css">reset.css</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="web.config">web.config</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="styles" TargetFolderName="styles">
+        <ProjectItem ReplaceParameters="true" TargetFileName="animate.css">animate.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css">bootstrap.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="font-awesome-animation.min.css">font-awesome-animation.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="myStyle.css">myStyle.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="reset.css">reset.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="responsive.css">responsive.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="responsive.min.css">responsive.min.css</ProjectItem>
+      </Folder>
+      <Folder Name="videos" TargetFolderName="videos">
+        <ProjectItem ReplaceParameters="false" TargetFileName="prezi.mp4">prezi.mp4</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="WhatsApp Video 2019-05-07 at 10.54.16.mp4">WhatsApp Video 2019-05-07 at 10.54.16.mp4</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

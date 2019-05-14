@@ -1,0 +1,117 @@
+﻿body {
+    direction: rtl;
+    margin: 0 auto;
+    font-family: Calibri;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    font-family: Calibri;
+    font-size: 16px;
+}
+
+#header {
+    height: 760px;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: right;
+    margin: 0;
+    margin-right: 10px;
+    color: #2b3a42; /*כחול כהה*/
+}
+
+.hero .video {
+    height: 500px;
+}
+
+.hero {
+    object-fit: fill;
+    width: 100%;
+    height: 580px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+#scrollbtn {
+    margin-right: 750px;
+    margin-top: 10px;
+    transition: all .6s ease-out;
+    position: absolute;
+}
+
+.btn {
+    background: none;
+    border: none;
+    outline: none;
+    transition: all .4s ease-out;
+}
+
+
+#scrollbtn:hover {
+    margin-top: 38px;
+}
+
+.thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    width: 170px;
+    height: 200px;
+}
+
+    .thumbnail:hover {
+        opacity: 0.4;
+    }
+
+a:hover {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+#Courses {
+    height: 730px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 -5px 5px rgba(0,0,0,.2);
+    z-index: 10;
+}
+
+#allcourses {
+    padding-top: 60px;
+    height: 730px;
+    background: url('../images/63610.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+#api {
+    /*background-color: #2B3A42;*/
+    text-align: center;
+    font-size: 18pt;
+    margin-bottom: 20px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #2B3A42;
+}
